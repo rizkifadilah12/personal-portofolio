@@ -9,20 +9,25 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-   
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/rizki-fadilah-086329197"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://www.github.com/rizkifadilah12"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://www.instagram.com/rizkifadilah_218/"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/muhamad-rizki-padilah/">
+                <img src={navIcon1} alt="Icon" />
+              </a>
+              <a href="https://www.github.com/rizkifadilah12">
+                <img src={navIcon2} alt="Icon" />
+              </a>
+              <a href="https://www.instagram.com/rizkifadilah_218/">
+                <img src={navIcon3} alt="Icon" />
+              </a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
     </footer>
-  )
+  );
 }
